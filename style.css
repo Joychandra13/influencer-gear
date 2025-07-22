@@ -9,9 +9,6 @@
     padding: 0;
     overflow-x: hidden;
 }
-.body{
-    box-sizing: border-box;
-}
 
 button{
     padding: 10px 24px;
@@ -185,9 +182,6 @@ button:hover{
 }
 
 .fratured-col img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
 }
 
