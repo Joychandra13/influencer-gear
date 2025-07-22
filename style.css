@@ -188,9 +188,35 @@ button:hover{
     align-items: center;
 }
 
+/* footer */
+.footer{
+    margin-top: 100px;
+    padding: 50px;
+    background-color: #0a0826;
+    text-align: center;
+}
+.footer h1{
+    font-weight: 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+.footer p{
+    font-size: 14px;
+    color: #D9DBE1;
+    margin-top: 3px;
+}
+.icons{
+    margin-top: 17px;
+}
+.icons i{
+    padding: 8px;
+    color: white;
+    border-radius: 50px;
+    background-color: #3A3A3A;
+}
 
 @media screen and (max-width: 1100px) {
-    body{
+    .main{
         padding: 30px;
     }
     .hearder{
@@ -207,9 +233,6 @@ button:hover{
 @media screen and (max-width: 576px) {
     *{
         font-size: 14px;
-    }
-    body{
-        padding: 10px;
     }
     .logo{
         font-size: 16px;
@@ -231,6 +254,9 @@ button:hover{
     }
     .banner-col h1{
         font-size: 28px;
+    }
+    .main{
+        padding: 10px;
     }
     .logo-showcase{
         padding: 0px;
@@ -254,5 +280,8 @@ button:hover{
     }
     .fratured-col h1{
         font-size: 24px;
+    }
+    .footer{
+        margin-top: 50px;
     }
 }
