@@ -10,7 +10,6 @@
 }
 .body{
     box-sizing: border-box;
-    padding: 10px;
 }
 button{
     padding: 10px 24px;
@@ -90,9 +89,43 @@ button:hover{
     position: absolute;
 }
 
+.main{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+/* logo-showcase */
+.logo-showcase{
+    padding: 36px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 61px;
+    border-top: 1px solid transparent;
+    border-bottom:1px solid transparent;
+    border-image: linear-gradient(90deg,rgba(192, 204, 218, 0.1) 10%, rgba(192, 204, 218, 0.6) 50%, rgba(192, 204, 218, 0.1) 90%);
+    border-image-slice: 1;
+}
+
+@media screen and (max-width: 1100px) {
+    body{
+        padding: 30px;
+    }
+    .hearder{
+        padding: 0;
+    }
+    .navbar{
+        margin-top: 0px;
+    }
+}
+
 @media screen and (max-width: 576px) {
     *{
         font-size: 14px;
+    }
+    body{
+        padding: 10px;
     }
     .logo{
         font-size: 16px;
@@ -114,5 +147,14 @@ button:hover{
     }
     .banner-col h1{
         font-size: 28px;
+    }
+    .logo-showcase{
+        padding: 0px;
+        flex-wrap: wrap;
+        gap: 23px;
+        border: none;
+    }
+    .logo-showcase img{
+        max-width: 60px;
     }
 }
